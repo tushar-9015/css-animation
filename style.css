@@ -14,9 +14,11 @@ body {
     height: 300px;
     width: 300px;
     position: absolute;
-    animation: fifu;
+    animation-name: fifu;
     animation-duration: 3s;
     animation-delay: 1s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 10;
 }
 
 
@@ -25,12 +27,13 @@ body {
 left: 0;
 top: 0;
 background-color: aqua;
+border-color: brown;
    } 
 
    50% {
     left: 50%;
     top: 0;
-    background-color: aquamarine;
+    background-color: rgb(51, 66, 61);
    }
 
    100% {
